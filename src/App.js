@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { CounterApp2 } from "./pages/CounterApp2";
+function App(){
+  return(<CounterApp2/>)
+  //return(<h1>Hello React JS</h1>)
+  //return React.createElement('h1',null,'Hello React JS');
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  //return(
+    //<>
+    //{/* <h1>login form</h1> */}
+    //{/* <label>username</label><input placeholder="enter your name"/> */}
+    // {/* <button>login</button> */}
+    // {/* <label>name</label><input placeholder="enter your name"/> */}
+    // {/* <br></br> */}
+    // {/* <label>name</label><input placeholder="enter your name"/> */}
+    // {/* <br></br> */}
+    // {/* <button>login</button> */}
+   // </>
+ // )
 }
-
 export default App;
